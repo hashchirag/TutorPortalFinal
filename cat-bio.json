@@ -1,0 +1,93 @@
+[
+{
+ "info":{
+  "cid": 150,
+  "ct": "Diversity in Living World",
+  "ctg": "diversity-in-living-world",
+  "pcid": 79 
+}
+},
+{
+ "info":{ 
+  "cid": 151,
+  "ct": "Structural Organisation in Animals and Plants",
+  "ctg": "structural-organisation-in-animals-and-plants",
+  "pcid": 79 }
+  },
+  {
+   "info":{ 
+    "cid": 152,
+    "ct": "Cell Structure and Formation",
+    "ctg": "cell-structure-and-formation",
+    "pcid": 79 }
+    },
+    {
+      "info":{
+        "cid": 153,
+        "ct": "Plant Physiology",
+        "ctg": "plant-physiology",
+        "pcid": 79
+        }},
+        {
+          "info":{
+            "cid": 154,
+            "ct": "Human Physiology",
+            "ctg": "human-physiology",
+            "pcid": 79}
+            },
+            {
+              "info":{
+                "cid": 155,
+                "ct": "Reproduction",
+                "ctg": "reproduction",
+                "pcid": 79}
+                },
+                {
+                  "info":{
+                    "cid": 156,
+                    "ct": "Genetics and Evolution",
+                    "ctg": "genetics-and-evolution",
+                    "pcid": 79}
+                    },
+                    {
+                      "info":{
+                        "cid": 157,
+                        "ct": "Biology in Human Welfare",
+                        "ctg": "biology-and-human-welfare",
+                        "pcid": 79}
+                        },
+                        {
+                          "info":{
+                            "cid": 158,
+                            "ct": "Biotechnology and its Applications",
+                            "ctg": "biotechnology-and-its-applications",
+                            "pcid": 79 }
+                            },
+                            {
+                              "info":{
+                                "cid": 159,
+                                "ct": "Ecology and Environment",
+                                "ctg": "ecology-and-environment",
+                                "pcid": 79 }
+                                },{
+                                  "info":{
+                                    "cid": 220,
+                                    "ct": "Human Health and Disease",
+                                    "ctg": "human-health-and-disease",
+                                    "pcid": 157 }
+                                    },
+                                    {
+                                      "info":{
+                                        "cid": 221,
+                                        "ct": "Strategies for Enhancement in Food Production",
+                                        "ctg": "stratgies-for-enhancement-in-food-production",
+                                        "pcid": 157 }
+                                        },
+                                        {
+                                          "info":{
+                                            "cid": 222,
+                                            "ct": "Microbes in Humal Welfare",
+                                            "ctg": "microbes-in-humal-welfare",
+                                            "pcid": 157}
+                                          }
+                                          ]

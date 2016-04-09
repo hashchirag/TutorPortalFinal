@@ -1,0 +1,53 @@
+@import "compass/css3";
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #F2F2F2;
+  overflow: hidden;
+}
+
+#container #facebook {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  
+  > #facebook-button {
+    $image_size: 350px;
+    $padding: 3px;
+    $border: 1px;
+    
+    margin-left: -($image_size/2);
+	  margin-top: -($image_size/2);
+
+	  width: $image_size;
+	  height: $image_size;
+	  padding: $padding;
+
+	  border-radius: $image_size/2;
+	  border: $border solid #BEBEBE;
+
+	  background-image: url('http://i.imgur.com/LZJCVMQ.png');
+	  background-color: #3B579D;
+	  background-repeat: no-repeat;
+	  background-position: center center;
+    background-size: 350px 350px;
+
+  	cursor: pointer;
+  }
+  > #facebook-login {
+    $width: 500px;
+    $padding: 5px;
+    $border: 1px;
+    display: none;
+    
+    margin-left: -($width/2);
+	  margin-top: -($width/2);
+
+	  width: $width;
+	  height: $width;
+	  padding: $padding;
+    
+	  border: $border solid #FFFFFF;
+  }
+}

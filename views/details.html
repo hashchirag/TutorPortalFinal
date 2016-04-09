@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS3 Selectables with information rollover</title>
+  <link rel="stylesheet" href="../styles/lowergradelandingpage.css">
+</head>
+
+
+<link rel="stylesheet" href="../styles/fake.css" type="text/css">
+
+<body>
+  <div class = "container">
+    <form id="mForm">
+      <h1>Tutor Registration</h1>
+
+      <div class="form-group">
+        <select id = "college">
+          <option disabled></option>
+
+        </select>
+        <label for="select" class="control-label">Choose your college</label><i class="bar"></i>
+      </div>
+
+
+      <div class="form-group" id ="customCollege">
+        <input type="text" required="required" id = "customCollegeText"/>
+        <label for="input" class="control-label">Enter name of your college</label><i class="bar"></i>
+      </div>
+
+      <div class="form-group" >
+        <select id = "degree">
+          <option disabled></option>
+        </select>
+        <label for="select" class="control-label">Choose your degree</label><i class="bar"></i>
+      </div>
+
+      <div class="form-group" id ="customDegree">
+        <input type="text" required="required" id = "customDegreeText"/>
+        <label for="input" class="control-label">Enter your Degree</label><i class="bar"></i>
+      </div>
+
+      <div class="form-group" >
+        <select id="year">
+          <option disabled></option>
+        </select>
+        <label for="select" class="control-label">Choose your year of graduation</label><i class="bar"></i>
+      </div>
+
+
+      <div class="form-group">
+        <input type="text" required="required" id ="phone"/>
+        <label for="input" class="control-label">Enter your phone number</label><i class="bar"></i>
+      </div>
+
+      <div class="form-group">
+        <input type="email" required="required" id = "email"/>
+        <label for="email" class="control-label">Enter your Email Address</label><i class="bar"></i>
+      </div>
+
+    </br>
+
+    <h4>Choose Exam groups you wish to teach</h4>
+
+    <div id="examGroups" class="material_block">
+    </div></br>
+  </br>
+
+
+  <h4>Choose languages known to you</h4>
+
+  <div id="languages" class="material_block">
+  </div></br>
+</br>
+
+<h4>Are you a student or a graduate ?</h4>
+
+
+<div class="material_block">
+  <input id="student" name="studentOrGraduate" type="radio" class="material_radio" value="student">
+  <label for="student">Student</label>
+  <input id="graduate" name="studentOrGraduate" type="radio" class="material_radio" value = "graduate">
+  <label for="graduate">Graduate</label>
+</div>
+
+</br>
+<div id = "studentPics">
+
+  Upload snapshot of FRONT section of your ID Card</br>
+  <div class="file">
+    <input type="file" name="file" id="id_front_student" />
+    <span class="value">SELECT FILE</span>
+    <span class="bt-value">Browse</span>
+  </div>
+</br>
+
+Upload snapshot of BACK section of your ID Card</br>
+<div class="file">
+  <input type="file" name="file" id="id_back_student" />
+  <span class="value">SELECT FILE</span>
+  <span class="bt-value">Browse</span>
+
+</div>
+</div>
+
+
+<div id = "graduatePics">
+  Upload snapshot of your ID Card</br><div class="file">
+  <input type="file" name="file" id="id_graduate" />
+  <span class="value">SELECT FILE</span>
+  <span class="bt-value">Browse</span>
+</div>
+</br>
+
+Upload snapshot latest degree certificate</br><div class="file">
+<input type="file" name="file" id="certificate_graduate" />
+<span class="value">SELECT FILE</span>
+<span class="bt-value">Browse</span>
+</div>
+</div>
+
+</form>
+
+<section>
+  <div class="button-container">
+    <button type="button" id="submit"><span>Submit</span></button>
+  </div>
+</section>
+
+
+</div>
+</body>
+<script src="../scripts/controllers/details.js"></script>
+
+</html>

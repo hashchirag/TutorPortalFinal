@@ -1,0 +1,256 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,600");
+html {
+  color: #000000;
+  font-weight: 400;
+  font-family:Roboto;
+  -webkit-font-smoothing: antialiased;
+}
+html body {
+  background-color: #26292c;
+  margin: auto;
+  min-height: 8.5em;
+  padding: 0 0 30px;
+}
+
+header .header-title {
+  background: #00ab91;
+  height: 200px;
+  color: #efefef;
+  line-height: 200px;
+  text-align: center;
+  font-size: 28px;
+  font-weight:bold;
+  width: 1300px;
+  font-family:Roboto;
+
+}
+
+h1 {
+  text-align: center;
+  margin: 0.4em 0 0.6em;
+  font-size: 2em;
+}
+
+p {
+  text-align: center;
+  width: 45%;
+  margin: 1em auto;
+}
+
+a {
+  color: #15b0ed;
+}
+
+fieldset {
+  width: 30%;
+  padding: 1em 2em;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  left: 30%;
+  position: absolute;
+}
+fieldset legend {
+  padding: 0 0.5em 0;
+  margin: 0;
+}
+
+input[type=radio] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+input[type=radio] + label {
+  cursor: pointer;
+  text-indent: 2.2em;
+  line-height: 2em;
+  color: rgba(0,0,0,1);
+  display: block;
+  position: relative;
+  transition: 0.15s;
+}
+input[type=radio] + label > i {
+  border-radius: 18px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  margin-top: -9px;
+  background: #050505;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.08), 1px 1px 1px rgba(255, 255, 255, 0.03);
+}
+input[type=radio] + label > i:after {
+  content: "";
+  position: absolute;
+  border-radius: 36px;
+  background: #ccc;
+  background: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  margin-left: -9px;
+  margin-top: -9px;
+  opacity: 0;
+  transform: scale(0.5);
+}
+input[type=radio]:hover + label {
+  color: #00AB91;
+}
+input[type=radio]:hover + label > i:after {
+  opacity: 1;
+}
+input[type=radio]:focus + label, input[type=radio]:active + label {
+  color: white;
+}
+input[type=radio]:focus + label > i, input[type=radio]:active + label > i {
+  box-shadow: 0 0 1px white, 0 0 2px #00AB91, 0 0 5px #00AB91;
+}
+/*input[type=radio]:checked + label {
+  color: white;
+  }*/
+  input[type=radio]:checked + label > i:after {
+    opacity: 1;
+    border-radius: 90px;
+    background: #00AB91;
+    transform: scale(0.8);
+    transition: all 0.2s cubic-bezier(0.555, -0.375, 0, 1.615);
+  }
+  input[type=radio]:focus:checked + label, input[type=radio]:active:checked + label {
+    color: #00AB91;
+  }
+
+  fieldset.inline input[type=radio] + label {
+    display: inline-block;
+    margin-right: 2em;
+  }
+
+  .lt-ie8 input[type=radio] {
+    position: static;
+    width: auto;
+    height: auto;
+    opacity: 1;
+  }
+  .lt-ie8 input[type=radio] + label {
+    display: inline-block;
+    text-indent: 0.3em;
+  }
+  .lt-ie8 input[type=radio] + label > i {
+    display: none;
+  }
+
+
+/*
+button*/
+@import url(http://fonts.googleapis.com/css?family=Raleway:900);
+@import url(http://fonts.googleapis.com/css?family=Roboto:700);
+
+header .header-title {
+  background: #00ab91;
+  height: 200px;
+  color: #efefef;
+  line-height: 200px;
+  text-align: center;
+  font-size: 28px;
+  font-weight:bold;
+  width: 1300px;
+}
+
+section {
+  margin:0 auto;
+  padding-top:2.5%;
+  padding-bottom:2.5%;
+  max-width:1000px;
+}
+
+section:first-child:last-child {
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
+section.content-block {
+  font-family:'proxima-nova-soft';
+  width: 800px;
+}
+section.content-block p {
+}
+
+footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+  header .bars {
+    position: inherit;
+  }
+}
+
+
+
+
+* {
+  font-family:Roboto;
+}
+
+#vid {
+  margin-left: 400px;
+}
+
+/*#taketest {
+  margin-left: 600px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-family:'proxima-nova-soft';
+}
+.taketest p{
+
+  font-family:'proxima-nova-soft';
+  }*/
+
+
+  .blueText{
+    color: #358693;
+  }
+  .button {
+    background: #3D4C53;
+    margin : 20px auto;
+    width : 200px;
+    height : 50px;
+    overflow: hidden;
+    text-align : center;
+    transition : .2s;
+    cursor : pointer;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    display: inline-block;
+  }
+  .btnTwo {
+    position : relative;
+    width : 200px;
+    height : 100px;
+    margin-top: -100px;
+    padding-top: 1px;
+    background : #26A69A;
+    left : -250px;
+    transition : .3s;
+  }
+  .btnText {
+    color : white;
+    transition : .3s;
+  }
+  .btnText2 {
+    margin-top : 59px;
+    margin-right : -130px;
+    color : #FFF;
+  }
