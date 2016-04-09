@@ -8,7 +8,8 @@
 
 body {
   padding: 0;
-  font-family: 'Bowlby One SC', serif;
+/*  font-family: 'Bowlby One SC', serif;
+*/  
   background-image: url('../images/bg.png');
 }
 
@@ -98,7 +99,7 @@ body {
   padding: 3px;
   border-radius: 175px;
   border: 1px solid #BEBEBE;
-  background-image: url("http://i.imgur.com/LZJCVMQ.png");
+  background-image: url("https://i.imgur.com/LZJCVMQ.png");
   background-color: #3B579D;
   background-repeat: no-repeat;
   background-position: center center;
